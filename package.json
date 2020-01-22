@@ -130,7 +130,7 @@
     "rx": "^4.1.0",
     "rx-dom": "^7.0.3",
     "sanitize-html": "^1.11.1",
-    "snyk": "^1.68.1",
+    "snyk": "^1.214.0",
     "store": "git+https://github.com/berkeleytrue/store.js.git#feature/noop-server",
     "uuid": "^3.0.1",
     "validator": "^8.2.0"
