@@ -29,7 +29,8 @@
     "test-js": "npm run test-js-client && npm run test-js-common && npm run test-js-server",
     "test-js-client": "tape -r babel-register \"client/**/*.test.js\" | tap-spec",
     "test-js-common": "tape -r babel-register \"common/**/*.test.js\" | tap-spec",
-    "test-js-server": "tape -r babel-register \"server/**/*.test.js\" | tap-spec"
+    "test-js-server": "tape -r babel-register \"server/**/*.test.js\" | tap-spec",
+    "prepare": "npm run snyk-protect"
   },
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "dependencies": {
@@ -73,7 +74,7 @@
     "history": "^4.7.2",
     "invariant": "^2.2.1",
     "jade": "^1.11.0",
-    "jquery": "~3.1.1",
+    "jquery": "~3.5.0",
     "jshint": "~2.9.4",
     "jsonlint-cli": "^1.0.1",
     "lightbox2": "~2.8.2",
@@ -130,7 +131,7 @@
     "rx": "^4.1.0",
     "rx-dom": "^7.0.3",
     "sanitize-html": "^1.11.1",
-    "snyk": "^1.68.1",
+    "snyk": "^1.316.1",
     "store": "git+https://github.com/berkeleytrue/store.js.git#feature/noop-server",
     "uuid": "^3.0.1",
     "validator": "^8.2.0"
