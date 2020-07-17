@@ -125,7 +125,7 @@
     "redux-epic": "^0.3.0",
     "redux-first-router": "^1.9.19",
     "redux-form": "^5.2.3",
-    "request": "^2.65.0",
+    "request": "^2.88.0",
     "reselect": "^3.0.0",
     "rx": "^4.1.0",
     "rx-dom": "^7.0.3",
