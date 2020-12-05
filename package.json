@@ -106,7 +106,7 @@
     "prop-types": "^15.5.10",
     "react": "^15.6.2",
     "react-addons-css-transition-group": "~15.4.2",
-    "react-addons-shallow-compare": "~15.4.2",
+    "react-addons-shallow-compare": "~15.6.3",
     "react-bootstrap": "~0.31.2",
     "react-codemirror": "^0.3.0",
     "react-dom": "^15.6.2",
